@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "eslint.options": {
+    "ignorePattern": "webpack.config.js"
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx"] }
+    ],
+    "react/jsx-one-expression-per-line": "off",
+    "prettier/prettier": ["error"]
+  }
+}
